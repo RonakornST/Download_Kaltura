@@ -1,3 +1,7 @@
+## Installation requirement
+```
+brew install ffmpeg   
+```
 ## Merge all of .ts to single .mp4
 **NOTE: Stay in the same directory will all of your .ts, before using these command below**
 ```
