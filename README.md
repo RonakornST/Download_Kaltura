@@ -1,12 +1,12 @@
 # Download_Kaltura
 
-## 1.Open Developer tool console of your browser and go to network section
+## 1. Open Developer tool console of your browser and go to network section
 ## 2. Click on seg-{number of video section}-a1-v1.ts?policy=... then the Request URL that look like this would appear
 ```
 https://cfvod.kaltura.com/scf/hls/p/2910381/sp/291038100/serveFlavor/entryId/1_oa5ki6o4/v/11/ev/5/flavorId/1_9lbv4hoo/name/a.mp4/seg-578-v1-a1.ts?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZnZvZC5rYWx0dXJhLmNvbS9zY2YvaGxzL3AvMjkxMDM4MS9zcC8yOTEwMzgxMDAvc2VydmVGbGF2b3IvZW50cnlJZC8xX29hNWtpNm80L3YvMTEvZXYvNS9mbGF2b3JJZC8xXzlsYnY0aG9vL25hbWUvYS5tcDQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1NDMyNDcxNn19fV19&Signature=Ws6jO4siSYfaIzQEdJwUMJbRZZPIQzjrguXX8XVLmwHl0lvGllDUiE43f428odyLwc9ta2wyby23aDIVUvXM2ue5uzJwgeps6kYw6OjRU5NPmpcK7O4XLaGcyLkY5~Oz6t8MnGDc-sTNxqLr7fss5ddATySgAa9fXhxDNHgl9wL6MfddHttXd7LK6lqdyTnte5F5sFRb-8SEPg5ZCMWcXs38I84OYf4dWTrNn30n8helX6UtldJNDFXSI7mC5n3CC5UMiLZA2AsCnSyr0bVsMWLx83QdNvJKHEYfmLQqhJotMiu7htW0DjCeU-1b5U-2jxveKav1P7bi5QG2ADqLWg__&Key-Pair-Id=APKAJT6QIWSKVYK3V34A
 ```
-## 3. Seperate the request URL in to 2 part just like the example below
-###
+## 3. Seperate the request URL in to 2 part and call it base_url and end_url just like the example below
+### 
 ```
 https://cfvod.kaltura.com/scf/hls/p/2910381/sp/291038100/serveFlavor/entryId/1_oa5ki6o4/v/11/ev/5/flavorId/1_9lbv4hoo/name/a.mp4/seg-578
 ```
