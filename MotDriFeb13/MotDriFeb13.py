@@ -1,5 +1,5 @@
 import requests
-
+# Copy the request URL of your interested video by open network section of your browser developer tool console then split it in to base_url and end_url
 base_url = "https://cfvod.kaltura.com/scf/hls/p/2910381/sp/291038100/serveFlavor/entryId/1_kljmj6lr/v/11/ev/5/flavorId/1_vtsmxsr7/name/a.mp4/seg-"
 end_url = "-v1-a1.ts?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZnZvZC5rYWx0dXJhLmNvbS9zY2YvaGxzL3AvMjkxMDM4MS9zcC8yOTEwMzgxMDAvc2VydmVGbGF2b3IvZW50cnlJZC8xX2tsam1qNmxyL3YvMTEvZXYvNS9mbGF2b3JJZC8xX3Z0c214c3I3L25hbWUvYS5tcDQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MDgyMzAzNH19fV19&Signature=C4R4HXYOAaE9nor-vYDYwzdj~OW4vB-WS7VZZoYuxrPNjaFH29bUV7hReAS87y1q6zgKbEIFNhMyPYvmwtjN-N0MZCqEtWy-lcmUZK20w30TiRPQZkbhaTy3txM-yj8Nzq2WvGqVWLaz9XX1d1t6hIMuM~R83TWWRtPmS3A3Bt19pYEyPah-bazDeVvxrIsW7Q4HYjzpqharjKYViXcb6pIVIy7lJGQU1hS2dDGFVGF1t0yMMoIhs33m15bZMRg9bEpHwHe1yKP7DHB7RXk5GtkDHR9zJfFlReR6AWjtJq5Z3V9ZdFfADa39UiAJ-LxFIVzCqhqXLd5uKCgNW0QKcA__&Key-Pair-Id=APKAJT6QIWSKVYK3V34A"
 
